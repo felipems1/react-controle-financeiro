@@ -1,0 +1,79 @@
+table {
+  width: 70%;
+  background-color: #eee;
+  margin-top: 20px;
+  border-radius: 7px;
+}
+
+thead {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+thead tr {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  border-bottom: 2px solid #ddd;
+  font-size: 16px;
+}
+
+thead tr th {
+  width: 20%;
+  display: flex;
+  margin: 10px 17px;
+  justify-content: center;
+  align-items: center;
+}
+
+tbody {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 10px 0;
+}
+
+tbody tr {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+tbody tr td {
+  width: 20%;
+  display: flex;
+  margin: 10px 17px;
+  justify-content: center;
+  align-items: center;
+}
+
+.up {
+  color: #00a000;
+}
+
+.down {
+  color: red;
+}
+
+.del {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 834px) {
+  table {
+    width: 90%;
+  }
+}
+@media (max-width: 428px) {
+  table {
+    width: 90%;
+  }
+
+  tbody tr,
+  thead tr {
+    font-size: 13px;
+  }
+}

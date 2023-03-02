@@ -1,0 +1,75 @@
+.container-form {
+  margin-top: 20px;
+  width: 70%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 7px;
+}
+
+.form-register {
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.area-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.area-input input,
+select {
+  width: 200px;
+  max-width: 80%;
+  margin-top: 5px;
+  outline: none;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.btn-add {
+  width: 100px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 7px;
+  background-color: #000;
+  color: #eee;
+}
+
+@media (min-width: 768px) and (max-width: 834px) {
+  .container-form {
+    height: auto;
+    width: 90%;
+  }
+  .area-input,
+  .btn-add {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 428px) {
+  .container-form {
+    height: auto;
+    width: 90%;
+  }
+  .form-register {
+    flex-direction: column;
+  }
+  .area-input,
+  .btn-add {
+    margin: 15px 0;
+  }
+
+  .area-input input,
+  select {
+    width: 300px;
+  }
+}

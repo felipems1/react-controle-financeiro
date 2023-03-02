@@ -1,0 +1,44 @@
+.container-sign {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #141414;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 400px;
+  margin-top: 15px;
+}
+
+.form input {
+  background-color: #0d0d0d;
+  border: none;
+  border-radius: 5px;
+  height: 36px;
+  padding: 0 8px;
+  margin-bottom: 15px;
+  outline: none;
+  color: #ccc;
+  font-size: 15px;
+}
+
+.form button {
+  background-color: #00b94a;
+  height: 36px;
+  padding: 0 8px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  border: none;
+}
+
+.button-link {
+  font-size: 17px;
+  color: #ccc;
+}
