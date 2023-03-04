@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Você pode visualizar o projeto através [DESSE LINK](https://financeiro-2ecbe.web.app).
+Você pode visualizar o projeto através [DESSE LINK](https://controle-financeiro-app.netlify.app).
 
 ---
 
