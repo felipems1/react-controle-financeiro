@@ -19,7 +19,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - ReactJS
 - TypeScript
 - CSS
-- React-Router
 - Firebase
 - Git e Github
 
